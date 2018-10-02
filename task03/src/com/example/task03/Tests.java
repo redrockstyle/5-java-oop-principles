@@ -1,4 +1,4 @@
-package com.example.task08;
+package com.example.task03;
 
 import org.junit.Assert;
 import org.junit.Test;

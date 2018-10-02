@@ -1,4 +1,4 @@
-package com.example.task08;
+package com.example.task03;
 
 /**
  * Интерфейс для интервалов времени в определенных единицах

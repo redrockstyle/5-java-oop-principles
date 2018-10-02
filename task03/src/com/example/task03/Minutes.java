@@ -1,4 +1,4 @@
-package com.example.task08;
+package com.example.task03;
 
 public class Minutes implements TimeUnit {
 

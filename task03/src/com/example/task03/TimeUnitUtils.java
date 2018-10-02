@@ -1,4 +1,4 @@
-package com.example.task08;
+package com.example.task03;
 
 /**
  * Класс, в котором собраны методы для работы с {@link TimeUnit}

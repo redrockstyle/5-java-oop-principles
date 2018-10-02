@@ -1,4 +1,4 @@
-package com.example.task06;
+package com.example.task01;
 
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
@@ -20,7 +20,7 @@ public class Tests {
 
     {
         try {
-            LOGGER_CLASS = Class.forName("com.example.task4.Logger");
+            LOGGER_CLASS = Class.forName("com.example.task01.Logger");
         } catch (ClassNotFoundException e) {
             throw new AssertionError("Не найден ожидаемый класс логгера", e);
         }

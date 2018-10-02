@@ -1,4 +1,4 @@
-package com.example.task07;
+package com.example.task02;
 
 /**
  * Товар в магазине
