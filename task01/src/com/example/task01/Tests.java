@@ -140,7 +140,7 @@ public class Tests {
                 System.setErr(testStream);
                 error.invoke(logger, "test message");
                 String message = new String(baos.toByteArray(), StandardCharsets.UTF_8).trim();
-                Pattern p = Pattern.compile("\\[([^]]+)\\] \\d{4}\\.\\d{2}\\.\\d{2} \\d{2}:\\d{2}:\\d{2}[^ ]+ (.*) - (.*)");
+                Pattern p = Pattern.compile("\\[([^]]+)\\] \\d{4}\\.\\d{2}\\.\\d{2} \\d{2}:\\d{2}:\\d{2} (.*) - (.*)");
                 Matcher m = p.matcher(message);
                 if (!m.matches()) {
                     throw new AssertionError("Сообщение не соответсвует ожидаемому шаблону: [ERROR] YYYY.MM.DD hh:mm:ss test - test message");
